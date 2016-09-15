@@ -34,11 +34,11 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-testkit-experimental" % akkaVersion % "test"
 )
 
-bintrayOrganization in bintray := Some("backline")
+bintrayOrganization in bintray := Some("banno")
 
 bintrayPublishSettings ++ Seq(
   publishArtifact in Test := false,
-  repository in bintray := "open-source",
+  repository in bintray := "oss",
   homepage := Some(url("https://github.com/backline/akka-http-metrics")),
   licenses ++= Seq(("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.html")))
 )
