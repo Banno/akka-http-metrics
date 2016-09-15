@@ -1,6 +1,6 @@
 import bintray.Keys._
 
-name := "akka-http-metrics"
+name := "akka-http-metrics_akka23"
 
 organization := "backline"
 
